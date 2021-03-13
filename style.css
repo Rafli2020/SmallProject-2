@@ -12,7 +12,7 @@ body {
     background: linear-gradient(-45deg, #3d66ec, #02a9f7, #04e6f7, #00eeff);
 }
 .container{
-    width: 50vh;
+    width: 203vh;
     margin: 0 auto;
     padding: 20px 20px;
     background: rgb(3, 91, 163);
@@ -46,36 +46,32 @@ header h1{
 }
 .cards card{
     color: rgba(255, 250, 250, 0.027);
-    background-color: #ffffff00;
+    background-color: #585bf0f6;
     padding: 10px 15px;
     border: none;
     margin: 5vh 10vh 0;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0);
-    background-image: url('../img/KRU.png');
     height: 30vh;
     width: 70vh ;
     justify-content: center;
     display: flex;
     align-items: center;  
-    background-size: cover;
     text-align: center;
 }
 .cards card1{
     color: rgba(17, 17, 17, 0);
-    background-color: #16161600;
+    background-color: #585bf0f6;
     padding: 10px 15px;
     border: none;
     margin: 5vh 10vh 0;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0);
-    background-image: url('../img/day2.png');
     height: 30vh;
     width: 70vh ;
     justify-content: center;
     display: flex;
     align-items: center;  
-    background-size: cover;
     text-align: center;
 }
 .cards card:hover {
@@ -89,7 +85,7 @@ header h1{
     box-shadow: 0 0.5px 3px rgba(0,0,0,0.05);
 }
 a{
-    color: rgb(255, 0, 0);; 
+    color: rgb(5, 5, 5);; 
     text-decoration: none;
 }
 .nim{
