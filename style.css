@@ -1,0 +1,110 @@
+* {
+    padding:0;
+    margin:0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(-45deg, #3d66ec, #02a9f7, #04e6f7, #00eeff);
+}
+.container{
+    width: 50vh;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: rgb(3, 91, 163);
+    display: grid;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    color: rgb(0, 0, 0);
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    float: inherit;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;  
+    background-size: cover;
+    font-size: 30px;
+    border: none;
+    margin: 5vh 1vh 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.cards card{
+    color: rgba(255, 250, 250, 0.027);
+    background-color: #ffffff00;
+    padding: 10px 15px;
+    border: none;
+    margin: 5vh 10vh 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url('../img/KRU.png');
+    height: 30vh;
+    width: 70vh ;
+    justify-content: center;
+    display: flex;
+    align-items: center;  
+    background-size: cover;
+    text-align: center;
+}
+.cards card1{
+    color: rgba(17, 17, 17, 0);
+    background-color: #16161600;
+    padding: 10px 15px;
+    border: none;
+    margin: 5vh 10vh 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url('../img/day2.png');
+    height: 30vh;
+    width: 70vh ;
+    justify-content: center;
+    display: flex;
+    align-items: center;  
+    background-size: cover;
+    text-align: center;
+}
+.cards card:hover {
+    border: 1px solid rgb(7, 7, 7);
+    cursor: pointer;
+    box-shadow: 0 0.5px 3px rgba(0,0,0,0.05);
+}
+.cards card1:hover {
+    border: 1px solid rgb(7, 7, 7);
+    cursor: pointer;
+    box-shadow: 0 0.5px 3px rgba(0,0,0,0.05);
+}
+a{
+    color: rgb(255, 0, 0);; 
+    text-decoration: none;
+}
+.nim{
+    color: rgb(17, 17, 17);
+    background-color: #1e9a9e;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 10vh;
+    width: 50vh ;
+    justify-content: center;
+    display:grid;
+    align-items: center;  
+    background-size: cover;
+    text-align: justify;
+    font-size: 20px;
+}
